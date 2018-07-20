@@ -1,0 +1,12 @@
+答辩Html+css
+
+一：行内元素和块状元素的区别：
+行内元素：会在水平方向排列，不能包含块级元素，设置width无效，height无效
+二：清楚浮动：
+1.父级div定义height。
+2.结尾处加空div标签clear：both。
+3.父级div定义伪类：after和zoom。
+4.父级div定义overflow：hidden
+三： flex 布局
+1.flex 子元素  需要布局的元素
+flex-grow 只有在 flex 容器中有剩余空间时才会生效。flex 项的 flex-grow 属性指定该 flex 项相对于其他 flex 项将拉伸多少，以填充 flex 容器。默认值为1。当设置为 0 时，该 flex 项将不会被拉伸去填补剩余空间。在这个例子中，两个项的比例是 1:2，意思是在被拉伸时，第一个 flex 项将占用 1/3，而第二个 flex 项将占据余下的空间。(这里特别要注意的是 flex-grow 控制的是 flex 项的拉伸比例，而不是占据 flex 容器的空间比例。)
